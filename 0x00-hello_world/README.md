@@ -1,1 +1,1 @@
-Printing a C program
+A C program
