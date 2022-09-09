@@ -1,1 +1,1 @@
-print C program
+C size
