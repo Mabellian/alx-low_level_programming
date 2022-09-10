@@ -1,1 +1,1 @@
-prints all possible combinations of single-digit numbers
+print all possible combinations of single-digit numbers
