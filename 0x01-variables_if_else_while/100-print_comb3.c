@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - print all possible different combinations of two digits
@@ -10,24 +10,31 @@ int main(void)
 
 	int c, i;
 
-	c = i = '0';
 
 	for (c = '0'; c <= '9'; c++)
 
-		for (i = '0'; i <= '9'; i++)
 
-			putchar(c);
+	for (i = '0'; i <= '9'; i++)
 
-	                putchar(i);
+		
+	if (c < i)
+			
+		putchar(c);
+		putchar(i);
 
+				
+	if (c != '8' || (c == '8' && i != '9'))	
+			
+	{
+	
+		break;
+	}
+					
+	putchar(',');
+	putchar(' ');	
+	
+	putchar('\n');
 
-			if ((c != '9') || (c == '9' && i != '9'))
-
-				putchar(',');
-			putchar(' ');
-
-			putchar('\n');
-
-			return (0);
+	return (0);
 
 }
