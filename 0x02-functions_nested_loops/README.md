@@ -1,1 +1,1 @@
-print lowercase letter
+lowercase
