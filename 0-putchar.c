@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - print putchar
  *
- * Description: _putchar
+ * Description: prints _putchar
  *
  * Return: Always 0
  */
