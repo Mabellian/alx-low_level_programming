@@ -1,40 +1,40 @@
 #include <stdio.h>
 
 /**
- * main - print all possible different combinations of two digits
- *
- * Return: Always 0 (Success)
+ *  * main - prints all possible different combinations of two digits
+ *   * Return: ALways 0 (Success)
  */
 int main(void)
 {
-
-	int c, i;
-
-
-	for (c = '0'; c <= '9'; c++)
-
-
-	for (i = '0'; i <= '9'; i++)
-
+		int c, i;
+		{
 		
-	if (c < i)
+			for (c = '0'; c <= '9'; c++)
+			{
 			
-		putchar(c);
-		putchar(i);
-
+				for (i = '0'; i <= '9'; i++)
+				{
 				
-	if (c != '8' || (c == '8' && i != '9'))	
+					if (c < i)
+
+						putchar(c);
+					        putchar (i);
+					{
 			
-	{
-	
-		break;
-	}
-					
-	putchar(',');
-	putchar(' ');	
-	
-	putchar('\n');
+						if (c != '8' || (c == '8' && i != '9'))
+								putchar(',');
+							        putchar(' ');
+								{
+								
+									break;
+								}
 
-	return (0);
 
+								putchar('\n');
+
+								return (0);
+					}
+				}
+			}
+		}
 }
