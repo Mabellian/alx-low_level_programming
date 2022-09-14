@@ -1,1 +1,1 @@
-10x.add
+add.10 times
