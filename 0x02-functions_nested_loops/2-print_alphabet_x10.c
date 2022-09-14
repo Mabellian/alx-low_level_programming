@@ -2,13 +2,17 @@
 
 /**
  * add - add two integers
- *@a: whole
- *@b: whole
+ *@a: int to be added to a
+ *@b: int to be added to b
  *
- * Return: a + b
+ * Return: sum of a and b
  */
 int add(int a, int b)
 {
 
-	return (a + b);
+	int c;
+
+	c = a + b;
+
+	return (c);
 }
