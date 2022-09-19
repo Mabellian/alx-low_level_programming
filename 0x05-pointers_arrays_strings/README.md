@@ -1,1 +1,1 @@
-convert a string to an integer
+generate random valid passwords
