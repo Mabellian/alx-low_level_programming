@@ -1,1 +1,1 @@
-string length
+string output
