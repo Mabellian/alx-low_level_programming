@@ -1,1 +1,1 @@
-string output
+reversed string
