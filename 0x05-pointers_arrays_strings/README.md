@@ -1,1 +1,1 @@
-half the string
+elements of an array of integers
