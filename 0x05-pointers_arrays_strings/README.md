@@ -1,1 +1,1 @@
-print string characters
+half the string
