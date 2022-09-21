@@ -1,1 +1,1 @@
-main.h file
+a function that concatenates two strings
