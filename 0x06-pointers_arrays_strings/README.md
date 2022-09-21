@@ -1,1 +1,1 @@
-more strings
+copy strings
