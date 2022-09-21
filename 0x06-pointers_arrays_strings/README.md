@@ -1,1 +1,1 @@
-compare strings
+reversed array
