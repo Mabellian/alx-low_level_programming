@@ -1,1 +1,1 @@
-capitalize each word
+a function that encodes a string into 1337
