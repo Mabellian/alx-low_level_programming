@@ -1,1 +1,1 @@
-print integers
+magic code
