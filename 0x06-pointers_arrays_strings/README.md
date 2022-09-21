@@ -1,1 +1,1 @@
-reversed array
+change lowercase strings to uppercase
