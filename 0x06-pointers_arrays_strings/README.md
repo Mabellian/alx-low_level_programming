@@ -1,1 +1,1 @@
-magic code
+add strings
