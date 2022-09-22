@@ -1,1 +1,1 @@
-sum of the even-valued terms
+prints the first 98 Fibonacci numbers
