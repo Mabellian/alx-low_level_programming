@@ -1,40 +1,37 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_times_table - prints time table of n
- * @n: takes number input
+ * print_to_98 - from n to 98
+ * @n: integer
+ *
+ * Return: this function print from n to 98
  */
 
-void print_times_table(int n)
+void print_to_98(int n)
 {
-	int prod, mult, num;
-
-	if (n <= 15 && n >= 0)
+	if (n < 98)
 	{
-		for (num = 0; num <= n; ++num)
+		for (; n <= 98; n++)
 		{
-			_putchar(48);
-			for (mult = 1; mult <= n; ++mult)
+			printf("%d", n);
+			if (n != 98)
 			{
-				_putchar(',');
-				_putchar(' ');
-
-				prod = num * mult;
-
-				if (prod <= 9)
-					_putchar(' ');
-				if (prod <= 99)
-					_putchar(' ');
-
-				if (prod >= 100)
-				{
-					_putchar((prod / 100) + 48);
-					_putchar((prod / 10) % 10 + 48);
-				} else if (prod <= 99 && prod >= 10)
-					_putchar((prod / 10) + 48);
-				_putchar((prod % 10) + 48);
+				printf(", ");
 			}
-			_putchar('\n');
 		}
 	}
+	else
+	{
+		for (; n >= 98; n--)
+		{
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			}
+		}
+	}
+
+	printf("\n");
 }
