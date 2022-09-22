@@ -1,1 +1,1 @@
-10 times lowerscase
+check for lowercase characters
