@@ -7,26 +7,24 @@
 
 int main(void)
 {
-	int c, i;
+	int n, m;
 
-	c = i = '0';
-
-	for (c = '0'; c <= '9'; c++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (m = 49; m <= 57; m++)
 		{
-			putchar(c);
-			putchar(i);
-
-			if ((c != '9') || (c == '9' && i != '9'))
+			if (m > n)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
