@@ -1,1 +1,1 @@
-check for lowercase characters
+a function that checks for alphabetic character
