@@ -1,40 +1,32 @@
 #include <stdio.h>
 
 /**
- *  * main - prints all possible different combinations of two digits
- *   * Return: ALways 0 (Success)
+ * main - Prints the numbers from 00 to 99
+ * Return: ALways 0 (Success)
  */
+
 int main(void)
 {
-		int c, i;
+	int c, i;
+
+	c = i = '0';
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
 		{
-		
-			for (c = '0'; c <= '9'; c++)
+			putchar(c);
+			putchar(i);
+
+			if ((c != '9') || (c == '9' && i != '9'))
 			{
-			
-				for (i = '0'; i <= '9'; i++)
-				{
-				
-					if (c < i)
-
-						putchar(c);
-					        putchar (i);
-					{
-			
-						if (c != '8' || (c == '8' && i != '9'))
-								putchar(',');
-							        putchar(' ');
-								{
-								
-									break;
-								}
-
-
-								putchar('\n');
-
-								return (0);
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
