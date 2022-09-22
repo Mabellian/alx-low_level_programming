@@ -1,1 +1,1 @@
-first 50 Fibonacci numbers
+sum of the even-valued terms
