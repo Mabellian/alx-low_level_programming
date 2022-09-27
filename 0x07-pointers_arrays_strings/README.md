@@ -1,1 +1,1 @@
-password
+pointer to character
