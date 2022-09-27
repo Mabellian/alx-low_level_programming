@@ -1,1 +1,1 @@
-copy memory
+locate the string
