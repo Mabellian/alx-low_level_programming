@@ -1,1 +1,1 @@
-locate the string
+length of a prefix substring
