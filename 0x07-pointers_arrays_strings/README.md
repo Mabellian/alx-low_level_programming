@@ -1,1 +1,1 @@
-pointer to character
+memory with constant byte
