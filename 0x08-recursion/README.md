@@ -1,1 +1,1 @@
-palindrome string
+prime number
