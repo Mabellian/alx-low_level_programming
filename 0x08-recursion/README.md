@@ -1,1 +1,1 @@
-main.h
+compare two strings
