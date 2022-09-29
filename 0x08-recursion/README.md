@@ -1,1 +1,1 @@
-power of a value
+factorial
