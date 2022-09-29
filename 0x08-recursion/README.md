@@ -1,1 +1,1 @@
-factorial
+return the length of string
