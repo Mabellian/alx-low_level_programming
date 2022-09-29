@@ -1,1 +1,1 @@
-squareroot of numbers
+power of a value
