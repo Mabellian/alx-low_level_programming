@@ -1,1 +1,1 @@
-number of arguments
+print all arguments
