@@ -1,1 +1,1 @@
-add positive numbers
+print minimum number of coins
