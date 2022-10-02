@@ -1,1 +1,1 @@
-main.h
+print name of program
