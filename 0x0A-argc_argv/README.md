@@ -1,1 +1,1 @@
-print all arguments
+multiplication
