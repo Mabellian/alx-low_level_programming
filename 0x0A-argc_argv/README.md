@@ -1,1 +1,1 @@
-print name of program
+number of arguments
