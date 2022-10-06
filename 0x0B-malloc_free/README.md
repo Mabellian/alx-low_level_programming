@@ -1,1 +1,1 @@
-return pointer to two dimensional array of integers
+free two dimensional grids
