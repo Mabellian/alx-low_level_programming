@@ -1,1 +1,1 @@
-allocate memory with malloc
+concatenate two strings
