@@ -1,1 +1,1 @@
-concatenate all argument
+split a string into two
