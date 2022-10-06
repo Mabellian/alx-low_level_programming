@@ -1,1 +1,1 @@
-main.h
+an array of char
