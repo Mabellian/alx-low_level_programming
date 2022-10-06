@@ -1,1 +1,1 @@
-an array of char
+return pointer to memory space
