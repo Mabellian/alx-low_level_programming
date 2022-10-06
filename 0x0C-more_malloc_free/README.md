@@ -1,1 +1,1 @@
-main.h
+allocate memory using malloc
