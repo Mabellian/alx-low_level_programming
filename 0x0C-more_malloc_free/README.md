@@ -1,1 +1,1 @@
-allocate memory using malloc
+allocate memory with malloc
