@@ -1,1 +1,1 @@
-return pointer to memory space
+consectrate two values
