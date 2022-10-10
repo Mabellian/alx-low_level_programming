@@ -1,1 +1,1 @@
-print struct dog
+a new dog
