@@ -1,1 +1,1 @@
-print compiled file name
+macro-like function
