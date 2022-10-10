@@ -1,1 +1,1 @@
-initialize
+print struct dog
