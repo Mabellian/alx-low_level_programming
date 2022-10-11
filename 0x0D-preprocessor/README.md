@@ -1,1 +1,1 @@
-macro-like function
+SUM(x, y)
