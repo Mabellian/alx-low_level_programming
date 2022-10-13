@@ -1,1 +1,1 @@
-variadic_functions.h
+return the sum of all parametres
