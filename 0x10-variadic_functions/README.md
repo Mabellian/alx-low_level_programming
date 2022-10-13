@@ -1,1 +1,1 @@
-return the sum of all parametres
+numbers with new line
